@@ -1,7 +1,7 @@
 # calculator
 
 
-![Image](https://github.com/user-attachments/assets/42e9fcf7-5e3d-4886-b6f7-ba654bb69fe2)
+![Image](https://github.com/user-attachments/assets/3845f6a9-36ec-450e-a92f-e7e10b30af21)
 
 
 
