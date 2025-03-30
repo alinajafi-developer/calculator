@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer components {
+    .operatorBtn {
+        @apply w-3/12 text-2xl border border-white py-2 hover:bg-cyan-600 flex flex-wrap justify-evenly text-white bg-cyan-700 cursor-pointer ;
+    }
+    .operatorBtn2 {
+        @apply w-4/12 text-2xl border border-black  py-2 hover:bg-gray-200  flex flex-wrap justify-evenly text-black bg-white cursor-pointer ;
+    }
+}

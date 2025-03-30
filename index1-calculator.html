@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/output.css">
+</head>
+
+<body>
+    <main class="w-full xl:container mx-auto flex flex-wrap justify-center">
+        <section class="w-10/12 sm:w-7/12 md:w-4/12 lg:w-3/12   flex flex-wrap">
+            <div class="my-8 w-full flex flex-wrap *:flex *:flex-wrap rounded-t-2xl border  shadow-2xl overflow-hidden">
+                <div class="w-full">
+                    <div class="w-full flex-wrap flex justify-start items-center px-4 h-[50px] text-2xl bg-cyan-900 *:bg-cyan-900 text-white"
+                        id="show">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="w-full">
+                    <div class="operatorBtn" id="sum" onclick="op(this)">+</div>
+                    <div class="operatorBtn" id="sub" onclick="op(this)">-</div>
+                    <div class="operatorBtn" id="mul" onclick="op(this)">*</div>
+                    <div class="operatorBtn" id="div" onclick="op(this)">/</div>
+                </div>
+                <div class="w-full">
+                    <div class="operatorBtn2" onclick="nums(this)">1</div>
+                    <div class="operatorBtn2" onclick="nums(this)">2</div>
+                    <div class="operatorBtn2" onclick="nums(this)">3</div>
+                    <div class="operatorBtn2" onclick="nums(this)">4</div>
+                    <div class="operatorBtn2" onclick="nums(this)">5</div>
+                    <div class="operatorBtn2" onclick="nums(this)">6</div>
+                    <div class="operatorBtn2" onclick="nums(this)">7</div>
+                    <div class="operatorBtn2" onclick="nums(this)">8</div>
+                    <div class="operatorBtn2" onclick="nums(this)">9</div>
+                    <div class="operatorBtn2" onclick="nums(this)">0</div>
+                    <div class="operatorBtn2 text-xl" id="clear">Clear</div>
+                    <div class="operatorBtn2 bg-orange-300 hover:bg-orange-400" onclick="eq()">=</div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="js/script.js">
+
+</script>
+
+</html>
